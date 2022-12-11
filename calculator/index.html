@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Calculate me! - A calculator made my me</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  
+    <div class="light-dark-theme-toggle">
+        <input type="checkbox" class="checkbox" id="chk" />
+        <label class="label" for="chk">
+            <i class="far fa-moon"></i>
+            <i class="fa-regular fa-sun"></i>
+            <div class="ball"></div>
+        </label>
+    </div>
+
+
+<div class="calculator">
+  <div class="container flex flex-col items-center mx-auto m-w-20">
+    
+    <div class="display-area">
+      <textarea class="input" type="text"></textarea>
+    </div>
+  
+
+    <div class="button-area">
+    <div class="row">
+      <button class="button green">AC</button>
+      <button class="button green back" >↺</button>
+      <button class="button green">%</button>
+      <button class="button red">/</button>
+      
+    </div>
+    <div class="row">
+      <button class="button">7</button>
+      <button class="button">8</button>
+      <button class="button">9</button>
+      <button class="button red">*</button>
+    </div>
+    <div class="row">
+      <button class="button">4</button>
+      <button class="button">5</button>
+      <button class="button">6</button>
+      <button class="button red">-</button>
+      
+    </div>
+    <div class="row">
+      <button class="button">1</button>
+      <button class="button">2</button>
+      <button class="button">3</button>
+      <button class="button red">+</button>
+    </div>
+    <div class="row">
+      <button class="button">00</button>
+      <button class="button">0</button>
+      <button class="button">.</button>
+      <button class="button red">=</button>
+    </div>
+    </div>
+
+  </div>
+
+</div>      
+  <script src="script.js"></script>
+</body>
+
+</html>
