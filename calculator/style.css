@@ -120,6 +120,7 @@ i.fa-sun {
 .light-dark-theme-toggle {
     position: absolute;
     top: 25px;
+    z-index: 9;
 }
 .row {
     text-align: center;
